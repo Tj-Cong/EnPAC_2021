@@ -3,7 +3,7 @@ EnPAC (Enhanced Petri-net Analyser and Checker) is an explict LTL model checking
 
 # 1. How to compile it?  
 ## 1.1 The following tools are necessary to compile EnPAC from scratch:  
-(they can be get by "sudo apt-get install <package>")  
+(they can be get by "sudo apt-get install \<package\>")  
 - Autoconf
 - Automake
 - libtools
