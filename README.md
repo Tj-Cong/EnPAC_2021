@@ -11,9 +11,11 @@ EnPAC (Enhanced Petri-net Analyser and Checker) is an explict LTL model checking
 
 ## 1.2 tcmalloc is required to be installed before compiling EnPAC
 you can run install.sh to install it automatically:
-    $ cd tcmalloc
-    $ chmod +x install.sh
-    $ sudo ./install  (MAKE SURE you give it root privilege)
+(```)
+$ cd tcmalloc
+$ chmod +x install.sh
+$ sudo ./install  (MAKE SURE you give it root privilege)
+(```)
 if it is installed successfully, the following files will appear in the /usr/local/lib (you can check this by commands "cd /usr/local/lib/ && (ls | grep tcmalloc)")
 - libtcmalloc.a
 - libtcmalloc_and_profiler.a
@@ -44,13 +46,15 @@ if it is installed successfully, the following files will appear in the /usr/loc
 ## 1.3 compile source code
 
 You need to configure EnPAC by executing
-     $ cd EnPAC
-     $ ./configure
-
+(```)
+$ cd EnPAC
+$ ./configure
+(```)
 Then, execute
-     $ make
-     $ sudo make install  (MAKE SURE you give it root privilege)
-
+(```)
+$ make
+$ sudo make install  (MAKE SURE you give it root privilege)
+(```)
 
 # 2. How to use it?
 ----------------------------------------------------------------------------------
