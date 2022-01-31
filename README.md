@@ -57,7 +57,8 @@ $ sudo make install  (MAKE SURE you give it root privilege)
 
 # 2. How to use it?  
 The execution of EnPAC relies on two input files: LTLCardinality.xml (or LTLFireability.xml) and model.pnml. These two files are definitely included in the instance provided by MCC;  
-    usage of EnPAC: 
+    usage of EnPAC:  
+````
     $ EnPAC <LTL category> [-p]  
         <LTL category>: LTL categories are two enumerated values, LTLCardinality or LTLFireability  
         [-p]: if you specified EnPAC by -p, then the Petri net model and each Buchi automata will be printed out, their names are:  
@@ -66,5 +67,5 @@ The execution of EnPAC relies on two input files: LTLCardinality.xml (or LTLFire
     example:  
           $ EnPAC LTLCardinality -p  
     or $ EnPAC LTLFireability  
-  
+````  
 notice*: don't use the '-f' function if it is not necessary, cause it will degrade EnPAC performance  
