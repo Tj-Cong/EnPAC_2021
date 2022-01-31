@@ -68,4 +68,4 @@ The execution of EnPAC relies on two input files: LTLCardinality.xml (or LTLFire
           $ EnPAC LTLCardinality -p  
     or $ EnPAC LTLFireability  
 ````  
-notice*: don't use the '-f' function if it is not necessary, cause it will degrade EnPAC performance  
+notice*: don't use the '-p' function if it is not necessary, cause it will degrade EnPAC performance  
